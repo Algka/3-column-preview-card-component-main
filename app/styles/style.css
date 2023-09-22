@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Merriweather:wght@300;400&family=Overpass:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Merriweather:wght@300;400&family=Overpass:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-size: 15px;
+}
+@media (max-width: 574px) {
+  body .hide-for-mobile {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  body .hide-for-desktop {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+a {
+  font-family: "Lexend Deca";
+  font-size: 700;
+}
+
+.button {
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  border: 0;
+}
+
+.ecri {
+  width: 300px;
+  height: 470px;
+  padding: 12%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-mobile {
+  width: 1350px;
+  height: 620px;
+}
+.container-mobile .container-box-mobile {
+  position: absolute;
+  justify-content: center;
+  width: 1310px;
+  height: 455px;
+  color: hsl(0, 0%, 95%);
+}
+.container-mobile .container-box-mobile .box-one {
+  width: 280px;
+  height: 350px;
+  background: hsl(31, 77%, 52%);
+  border-radius: 5px 5px 0px 0px;
+}
+.container-mobile .container-box-mobile .box-one h1 {
+  font-family: "Big Shoulders Display";
+}
+.container-mobile .container-box-mobile .box-one p {
+  font-family: "Lexend Deca";
+  opacity: 0.75;
+  font-size: 400;
+  margin-bottom: 30px;
+}
+.container-mobile .container-box-mobile .box-one .button {
+  color: hsl(31, 77%, 52%);
+}
+.container-mobile .container-box-mobile .box-one .button:hover {
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+.container-mobile .container-box-mobile .box-two {
+  width: 280px;
+  height: 350px;
+  background: hsl(184, 100%, 22%);
+}
+.container-mobile .container-box-mobile .box-two h1 {
+  font-family: "Big Shoulders Display";
+}
+.container-mobile .container-box-mobile .box-two p {
+  font-family: "Lexend Deca";
+  opacity: 0.75;
+  font-size: 400;
+  margin-bottom: 30px;
+}
+.container-mobile .container-box-mobile .box-two .button {
+  color: hsl(184, 100%, 22%);
+}
+.container-mobile .container-box-mobile .box-two .button:hover {
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+.container-mobile .container-box-mobile .box-three {
+  width: 280px;
+  height: 350px;
+  background: hsl(179, 100%, 13%);
+  border-radius: 0px 0px 5px 5px;
+}
+.container-mobile .container-box-mobile .box-three h1 {
+  font-family: "Big Shoulders Display";
+}
+.container-mobile .container-box-mobile .box-three p {
+  font-family: "Lexend Deca";
+  opacity: 0.75;
+  font-size: 400;
+  margin-bottom: 30px;
+}
+.container-mobile .container-box-mobile .box-three .button {
+  color: hsl(179, 100%, 13%);
+}
+.container-mobile .container-box-mobile .box-three .button:hover {
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+
+.container {
+  width: 1350px;
+  height: 620px;
+}
+.container .container-box {
+  position: absolute;
+  width: 1105px;
+  height: 545px;
+  color: hsl(0, 0%, 95%);
+}
+.container .container-box .box-one {
+  width: 280px;
+  height: 430px;
+  background: hsl(31, 77%, 52%);
+  border-radius: 5px 0px 0px 5px;
+  background: hsl(31, 77%, 52%);
+}
+.container .container-box .box-one h1 {
+  font-family: "Big Shoulders Display";
+}
+.container .container-box .box-one p {
+  font-family: "Lexend Deca";
+  opacity: 0.75;
+  font-size: 400;
+  margin-bottom: 100px;
+}
+.container .container-box .button {
+  color: hsl(31, 77%, 52%);
+}
+.container .container-box .button:hover {
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+.container .box-two {
+  width: 280px;
+  height: 430px;
+  background: hsl(184, 100%, 22%);
+}
+.container .box-two h1 {
+  font-family: "Big Shoulders Display";
+}
+.container .box-two p {
+  font-family: "Lexend Deca";
+  opacity: 0.75;
+  font-size: 400;
+  margin-bottom: 100px;
+}
+.container .box-two .button {
+  color: hsl(184, 100%, 22%);
+}
+.container .box-two .button:hover {
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+.container .box-three {
+  width: 280px;
+  height: 430px;
+  background: hsl(179, 100%, 13%);
+  border-radius: 0px 5px 5px 0px;
+}
+.container .box-three h1 {
+  font-family: "Big Shoulders Display";
+}
+.container .box-three p {
+  font-family: "Lexend Deca";
+  opacity: 0.75;
+  font-size: 400;
+  margin-bottom: 100px;
+}
+.container .box-three .button {
+  color: hsl(179, 100%, 13%);
+}
+.container .box-three .button:hover {
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}/*# sourceMappingURL=style.css.map */
