@@ -62,15 +62,14 @@ a{
 
 // display-for-mobile
 .container-mobile{
-    width: 1350px;
-    height: 620px;
+    .attribution{
+        margin-top: 50px;
+    }
     .container-box-mobile{
-        position: absolute;
-        justify-content: center;
-        width: 1310px;
-        height: 455px;
+        margin-left: 100px;
+        margin-top: 50px;
         color: $Very-light-gray;
-        .box-one{
+        .box-one-mobile{
             width: 280px;
             height: 350px;
             background: $Bright-orange;
@@ -96,7 +95,7 @@ a{
                 }
             }
         }
-        .box-two{
+        .box-two-mobile{
             width: 280px;
             height: 350px;
             background: $Dark-cyan;
@@ -121,7 +120,7 @@ a{
                 }
             }
         }
-        .box-three{
+        .box-three-mobile{
             width: 280px;
             height: 350px;
             background: $Very-dark-cyan;
@@ -158,9 +157,8 @@ a{
 
 // display-dor-desktop
 .container{
-    width: 1350px;
-    height: 620px;
-    
+    width: 1300px;
+    height: 580px;
     .container-box{
         position: absolute;
         width: 1105px;

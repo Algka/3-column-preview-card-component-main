@@ -60,36 +60,33 @@ a {
   align-items: center;
 }
 
-.container-mobile {
-  width: 1350px;
-  height: 620px;
+.container-mobile .attribution {
+  margin-top: 50px;
 }
 .container-mobile .container-box-mobile {
-  position: absolute;
-  justify-content: center;
-  width: 1310px;
-  height: 455px;
+  margin-left: 100px;
+  margin-top: 50px;
   color: hsl(0, 0%, 95%);
 }
-.container-mobile .container-box-mobile .box-one {
+.container-mobile .container-box-mobile .box-one-mobile {
   width: 280px;
   height: 350px;
   background: hsl(31, 77%, 52%);
   border-radius: 5px 5px 0px 0px;
 }
-.container-mobile .container-box-mobile .box-one h1 {
+.container-mobile .container-box-mobile .box-one-mobile h1 {
   font-family: "Big Shoulders Display";
 }
-.container-mobile .container-box-mobile .box-one p {
+.container-mobile .container-box-mobile .box-one-mobile p {
   font-family: "Lexend Deca";
   opacity: 0.75;
   font-size: 400;
   margin-bottom: 30px;
 }
-.container-mobile .container-box-mobile .box-one .button {
+.container-mobile .container-box-mobile .box-one-mobile .button {
   color: hsl(31, 77%, 52%);
 }
-.container-mobile .container-box-mobile .box-one .button:hover {
+.container-mobile .container-box-mobile .box-one-mobile .button:hover {
   padding: 10px 25px;
   text-decoration: none;
   border-radius: 50px;
@@ -97,24 +94,24 @@ a {
   color: hsl(0, 0%, 95%);
   border: 2px solid white;
 }
-.container-mobile .container-box-mobile .box-two {
+.container-mobile .container-box-mobile .box-two-mobile {
   width: 280px;
   height: 350px;
   background: hsl(184, 100%, 22%);
 }
-.container-mobile .container-box-mobile .box-two h1 {
+.container-mobile .container-box-mobile .box-two-mobile h1 {
   font-family: "Big Shoulders Display";
 }
-.container-mobile .container-box-mobile .box-two p {
+.container-mobile .container-box-mobile .box-two-mobile p {
   font-family: "Lexend Deca";
   opacity: 0.75;
   font-size: 400;
   margin-bottom: 30px;
 }
-.container-mobile .container-box-mobile .box-two .button {
+.container-mobile .container-box-mobile .box-two-mobile .button {
   color: hsl(184, 100%, 22%);
 }
-.container-mobile .container-box-mobile .box-two .button:hover {
+.container-mobile .container-box-mobile .box-two-mobile .button:hover {
   padding: 10px 25px;
   text-decoration: none;
   border-radius: 50px;
@@ -122,25 +119,25 @@ a {
   color: hsl(0, 0%, 95%);
   border: 2px solid white;
 }
-.container-mobile .container-box-mobile .box-three {
+.container-mobile .container-box-mobile .box-three-mobile {
   width: 280px;
   height: 350px;
   background: hsl(179, 100%, 13%);
   border-radius: 0px 0px 5px 5px;
 }
-.container-mobile .container-box-mobile .box-three h1 {
+.container-mobile .container-box-mobile .box-three-mobile h1 {
   font-family: "Big Shoulders Display";
 }
-.container-mobile .container-box-mobile .box-three p {
+.container-mobile .container-box-mobile .box-three-mobile p {
   font-family: "Lexend Deca";
   opacity: 0.75;
   font-size: 400;
   margin-bottom: 30px;
 }
-.container-mobile .container-box-mobile .box-three .button {
+.container-mobile .container-box-mobile .box-three-mobile .button {
   color: hsl(179, 100%, 13%);
 }
-.container-mobile .container-box-mobile .box-three .button:hover {
+.container-mobile .container-box-mobile .box-three-mobile .button:hover {
   padding: 10px 25px;
   text-decoration: none;
   border-radius: 50px;
@@ -150,8 +147,8 @@ a {
 }
 
 .container {
-  width: 1350px;
-  height: 620px;
+  width: 1300px;
+  height: 580px;
 }
 .container .container-box {
   position: absolute;
